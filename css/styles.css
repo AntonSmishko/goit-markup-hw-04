@@ -156,10 +156,23 @@ h1 {
   color: #fff;
 }
 .hero {
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/header-img.jpg);
+  background-color: #c4c4c4;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* margin-bottom: 94px; */
 }
 .hero-title {
   display: flex;
