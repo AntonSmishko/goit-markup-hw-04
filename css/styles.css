@@ -450,15 +450,20 @@ h1 {
   display: flex;
 }
 .company-box {
+  padding: 16px 32px;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
 }
+.company-link {
+  padding-top: 40.8px;
+}
 .company-box:not(:last-child) {
   margin-right: 30px;
 }
+
 /*********************** footer *************************/
 
 .footer {
