@@ -457,13 +457,25 @@ h1 {
   box-sizing: border-box;
   border-radius: 4px;
 }
+.company-box:hover,
+.company-box:focus {
+  border-color: #2196f3;
+}
+.svg-icon {
+  fill: #afb1b8;
+}
+.svg-icon:hover,
+.svg-icon:focus {
+  fill: #2196f3;
+}
+
 .company-link {
   padding-top: 40.8px;
 }
 .company-box:not(:last-child) {
   margin-right: 30px;
 }
-
+/* AFB1B8 */
 /*********************** footer *************************/
 
 .footer {
