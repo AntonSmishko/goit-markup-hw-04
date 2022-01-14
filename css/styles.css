@@ -382,6 +382,7 @@ h1 {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /***************************** portfolio-project ********************************************/
 .portfolio-project h3 {
   font-weight: bold;
@@ -485,7 +486,9 @@ h1 {
   padding-bottom: 60px;
   /* padding-left: 215px; */
 }
-
+.footer-container {
+  display: flex;
+}
 .footer-logo {
   font-family: Raleway;
   font-style: normal;
@@ -527,6 +530,15 @@ h1 {
 }
 /***************************** social************************* */
 
+.social-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
 .social-wrapper {
   margin-top: 20px;
   display: flex;
@@ -538,13 +550,26 @@ h1 {
 
   border-radius: 50%;
 }
+
 .social-wrapper > .list:hover,
 .social-wrapper > .list:focus {
   background-color: #2196f3;
 }
+
 .social-wrapper > .list:not(:last-child) {
   margin-right: 10px;
 }
 .svg-icon-footer {
   fill: #ffffff;
+}
+
+.social-link {
+  color: #afb1b8;
+}
+.social-link:hover,
+.social-link:focus {
+  color: #ffffff;
+}
+.svg-icon-bio {
+  fill: currentColor;
 }
