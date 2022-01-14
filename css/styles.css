@@ -449,6 +449,9 @@ h1 {
 }
 .company-wrapper {
   display: flex;
+
+  margin-bottom: 30px;
+  margin-left: 32px;
 }
 .company-box {
   padding: 16px 32px;
@@ -471,8 +474,7 @@ h1 {
 }
 
 .company-link {
-  padding-top: 61.8px;
-  padding-bottom: 10px;
+  display: block;
 }
 .company-box:not(:last-child) {
   margin-right: 30px;
@@ -484,7 +486,6 @@ h1 {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  /* padding-left: 215px; */
 }
 .footer-container {
   display: flex;
@@ -564,6 +565,7 @@ h1 {
 }
 
 .social-link {
+  display: block;
   color: #afb1b8;
 }
 .social-link:hover,
