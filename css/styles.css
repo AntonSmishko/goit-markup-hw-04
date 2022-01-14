@@ -470,7 +470,8 @@ h1 {
 }
 
 .company-link {
-  padding-top: 40.8px;
+  padding-top: 61.8px;
+  padding-bottom: 10px;
 }
 .company-box:not(:last-child) {
   margin-right: 30px;
@@ -523,4 +524,27 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/***************************** social************************* */
+
+.social-wrapper {
+  margin-top: 20px;
+  display: flex;
+}
+.social-wrapper > .list {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+.social-wrapper > .list:hover,
+.social-wrapper > .list:focus {
+  background-color: #2196f3;
+}
+.social-wrapper > .list:not(:last-child) {
+  margin-right: 10px;
+}
+.svg-icon-footer {
+  fill: #ffffff;
 }
