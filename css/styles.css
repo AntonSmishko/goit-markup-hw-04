@@ -383,6 +383,26 @@ h1 {
   padding-right: 15px;
 }
 
+.masters-social-list {
+  display: flex;
+  justify-content: center;
+}
+.profession {
+  margin-bottom: 16px;
+}
+.masters-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.masters-social-item + .masters-social-item {
+  margin-left: 10px;
+}
+
 /***************************** portfolio-project ********************************************/
 .portfolio-project h3 {
   font-weight: bold;
