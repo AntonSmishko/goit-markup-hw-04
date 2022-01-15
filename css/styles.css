@@ -393,12 +393,23 @@ h1 {
 .masters-social-link {
   width: 44px;
   height: 44px;
-  background-color: #2196f3;
+
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: #afb1b8;
 }
+.masters-social-icon {
+  fill: currentColor;
+}
+
+.masters-social-link:focus,
+.masters-social-link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 .masters-social-item + .masters-social-item {
   margin-left: 10px;
 }
