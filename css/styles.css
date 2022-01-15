@@ -130,7 +130,7 @@ img {
   margin-left: auto;
 }
 .header-link > .link-item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .link {
@@ -143,6 +143,11 @@ img {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+}
+
+.header-svg-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /************************************* hero *************************************/
