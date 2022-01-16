@@ -127,6 +127,7 @@ img {
 /********************************** link ****************************************/
 .header-link {
   display: flex;
+
   margin-left: auto;
 }
 .header-link > .link-item:not(:last-child) {
@@ -524,6 +525,7 @@ h1 {
   display: flex;
 }
 .footer-logo {
+  display: inline-flex;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -561,4 +563,54 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.wrapp-social {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.svg-footer-wrapper > h4 {
+  margin-bottom: 26px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.svg-footer-wrapper {
+  width: 222px;
+
+  margin-left: 70px;
+}
+.social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-icon {
+  fill: currentColor;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+}
+.con {
+  flex-direction: column;
 }
