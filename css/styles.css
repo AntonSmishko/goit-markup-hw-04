@@ -286,9 +286,11 @@ h1 {
   padding-top: 94px;
 }
 /* ***********************************icon*********** */
-.features-wrap::before {
-  content: "";
-  display: block;
+.features-wrap-svg {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -298,24 +300,6 @@ h1 {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-}
-.features-wrap:not(:last-child)::before {
-  margin-right: 30px;
-}
-.features-wrap:nth-child(1)::before {
-  background-image: url(../images/svg/antenna.svg);
-}
-
-.features-wrap:nth-child(2)::before {
-  background-image: url(../images/svg/clock.svg);
-}
-
-.features-wrap:nth-child(3)::before {
-  background-image: url(../images/svg/diagram.svg);
-}
-
-.features-wrap:nth-child(4)::before {
-  background-image: url(../images/svg/astronaut.svg);
 }
 
 .features .title {
